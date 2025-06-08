@@ -133,13 +133,20 @@ section {
 
 .card {
   background-color: white;
-  margin-top: 30px;
+  margin-top: 40px;
+}
+
+.card-header.grid-2-columns {
+  grid-gap: 0;
 }
 
 .img-card {
-  max-width: 70%;
-  height: auto;
-  display: block;
+  width: 100%;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 9 / 12;
 }
 
 .text-card {
@@ -158,6 +165,7 @@ section {
   padding: 16px;
   background-color: #462cb3;
   text-decoration: none;
+  margin-top: 50px;
 }
 
 footer {
@@ -244,6 +252,19 @@ footer p {
 
   section h3 {
     font-size: 37px;
+  }
+
+  .cards-section {
+    padding-top: 60px;
+  }
+
+  .img-card {
+    display: none;
+  }
+
+  .embed {
+    width: 100%;
+    aspect-ratio: 16 / 9;
   }
 
   .grid-3-equal-columns {
