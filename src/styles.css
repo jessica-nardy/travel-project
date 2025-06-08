@@ -168,6 +168,10 @@ section {
   margin-top: 50px;
 }
 
+.gallery {
+  margin-top: 40px;
+}
+
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
