@@ -137,8 +137,9 @@ section {
 }
 
 .img-card {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
+  display: block;
 }
 
 .text-card {
@@ -243,6 +244,13 @@ footer p {
 
   section h3 {
     font-size: 37px;
+  }
+
+  .grid-3-equal-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 60px;
+    width: 100%;
   }
 
   footer .grid-3-columns {
