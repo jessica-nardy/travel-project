@@ -67,7 +67,7 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  padding: 60px;
+  padding: 100px 0;
 }
 
 footer .grid {
@@ -100,7 +100,7 @@ footer p {
   line-height: 24px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   header {
     padding: 80px;
   }
